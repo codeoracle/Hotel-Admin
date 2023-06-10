@@ -1,4 +1,4 @@
-import './single.scss'
+import './hotelsingle.scss'
 import Navbar from "../../components/navbar/Navbar"
 import Sidebar from "../../components/sidebar/Sidebar"
 import Chart from "../../components/chart/Chart"
@@ -16,16 +16,16 @@ const Single = () => {
             <div className="editButton">Edit</div>
             <h1 className="title">Information</h1>
             <div className="item">
-              <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" className="itemImg" />
+              <img src="https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" className="itemImg" />
               <div className="details">
-                <div className="itemTitle">Mary Jane</div>
+                <div className="itemTitle">Highlife Hotel</div>
                 <div className="detailItem">
-                  <span className="itemKey">Email:</span>
-                  <span className="itemValue">maryjane@gmail.com</span>
+                  <span className="itemKey">Room:</span>
+                  <span className="itemValue">157</span>
                 </div>
                 <div className="detailItem">
-                  <span className="itemKey">Phone:</span>
-                  <span className="itemValue">+234 902 3893 813</span>
+                  <span className="itemKey">Status:</span>
+                  <span className="itemValue">Available</span>
                 </div>
                 <div className="detailItem">
                   <span className="itemKey">Address:</span>

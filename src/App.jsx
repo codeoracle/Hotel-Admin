@@ -3,6 +3,7 @@ import Login from "./pages/login/Login"
 import User from "./pages/user/User"
 import Hotel from "./pages/hotel/Hotel"
 import Single from "./pages/single/Single"
+import HotelSingle from "./pages/hotelsingle/HotelSingle"
 import New from "./pages/new/New"
 import { BrowserRouter, Route, Routes} from 'react-router-dom'
 import { productInputs, userInputs } from "./formSource"
@@ -28,8 +29,8 @@ function App() {
           </Route>
           <Route path="hotels">
           <Route index element={<Hotel/>}/>
-          <Route path=":productId" element={<Single/>}/>
-          <Route path="new" element={<New inputs={productInputs} title="Add New Product"/>}/>
+          <Route path=":hotelId" element={<HotelSingle/>}/>
+          <Route path="new" element={<New inputs={productInputs} title="Add New Hotel"/>}/>
           </Route>
         </Route>
       </Routes>

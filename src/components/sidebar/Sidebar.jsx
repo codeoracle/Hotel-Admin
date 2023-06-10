@@ -4,8 +4,10 @@ import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 // import InventoryIcon from '@mui/icons-material/Inventory';
 import BedIcon from '@mui/icons-material/Bed';
 // import ListAltIcon from '@mui/icons-material/ListAlt';
-import HotelIcon from '@mui/icons-material/Hotel';
-import LocalShippingIcon from '@mui/icons-material/LocalShipping';
+// import HotelIcon from '@mui/icons-material/Hotel';
+// import LocalShippingIcon from '@mui/icons-material/LocalShipping';
+import VillaIcon from '@mui/icons-material/Villa';
+import ApartmentIcon from '@mui/icons-material/Apartment';
 import PollOutlinedIcon from '@mui/icons-material/PollOutlined';
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 import SystemSecurityUpdateGoodOutlinedIcon from '@mui/icons-material/SystemSecurityUpdateGoodOutlined';
@@ -50,12 +52,12 @@ const Sidebar = () => {
                     </li>
                     </Link>
                 <li>
-                    <HotelIcon className='icon'/>
-                    <span>Rooms</span>
+                    <VillaIcon className='icon'/>
+                    <span>Villas</span>
                     </li>
                 <li>
-                    <LocalShippingIcon className='icon'/>
-                    <span>Delivery</span>
+                    <ApartmentIcon className='icon'/>
+                    <span>Apartments</span>
                     </li>
                 <p className="title">USEFUL</p>
                 <li>

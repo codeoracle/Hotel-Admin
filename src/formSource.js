@@ -50,19 +50,19 @@ export const productInputs = [
         id: 1,
         label: "Title",
         type: "text",
-        placeholder: "Apple Macbook Pro",
+        placeholder: "Five Star Hotel",
     },
     {
         id: 2,
-        label: "Description",
+        label: "Address",
         type: "text",
-        placeholder: "Description",
+        placeholder: "Address",
     },
     {
         id: 3,
-        label: "Categories",
+        label: "Rooms",
         type: "email",
-        placeholder: "Computers",
+        placeholder: "Rooms",
     },
     {
         id: 4,
@@ -72,9 +72,9 @@ export const productInputs = [
     },
     {
         id: 5,
-        label: "Stock",
+        label: "Country",
         type: "text",
-        placeholder: "In Stock",
+        placeholder: "Country",
     },
  
 ]
